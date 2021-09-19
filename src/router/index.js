@@ -7,6 +7,7 @@ import User from '@/components/user/user.vue'
 Vue.use(Router)
 
 export default new Router({ 
+  
   routes: [
     {
       name: 'login',
