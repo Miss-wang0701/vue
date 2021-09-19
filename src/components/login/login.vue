@@ -6,10 +6,10 @@
     label-width="80px" 
     :model="formdata">
       <span>用户登录</span>
-      <el-form-item label="用户名">
+      <el-form-item label="用户名1">
         <el-input  v-model="formdata.username"></el-input>
       </el-form-item>
-      <el-form-item label="密码">
+      <el-form-item label="密码1">
         <el-input v-model="formdata.password"></el-input>
       </el-form-item>
       <el-button class="login-btn" type="primary" @click="handleLogin">登录</el-button>
